@@ -1,2 +1,3 @@
 # COMP2900
-Estructura de Datos
+Curso de __Estructura de Datos__
+_Autor Mikael Tiba_
