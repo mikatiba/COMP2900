@@ -10,6 +10,6 @@ if(hourRate > 40):
 else:
     totalPay = hourRate * payRate
 
-print(f"El sueldo a pagar es $45 {totalPay}")
+print(f"El sueldo a pagar es $ {totalPay}")
 
     
