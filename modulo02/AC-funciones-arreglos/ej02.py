@@ -1,6 +1,12 @@
 def area_triangulo(base, altura):
-    return(base * altura /2)
+    return(base * altura /2) #fórmula matemática para determinar el área del triángulo
 
-resultado = area_triangulo(14,17)
+#ingresar valores
+base = float(input("Ingrese la base del triángulo: "))
+altura = float(input("Ingrese la altura del triángulo: "))
 
-print(resultado)
+resultado = area_triangulo(base, altura)
+
+print(f'El resultado del area del triángulo es: {resultado}') #imprime el resultado
+
+
