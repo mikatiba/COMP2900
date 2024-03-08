@@ -1,14 +1,21 @@
 def promedio(lista_numeros):
+    suma = 0
+    array_length = 0
+    for valor in lista_numeros:
+        suma += valor
+        array_length += 1
 
-    return (sum(lista_numeros) / len(lista_numeros)) #suma los valores de la lista luego divide por el tamaño de la lista
+    return(suma / array_length)
 
-lista = [] #lista vacía
+lista = []
 for i in range(6):
     valores = float(input("Ingrese un valor: "))
-    lista.append(valores) #agrega el valor a la lista
+    lista.append(valores)
 
 resultado = promedio(lista)
-print(f"El promedio de la lista: {resultado} ")
+print(f'El promedio de la lista: {resultado}')
+
+
 
 
 

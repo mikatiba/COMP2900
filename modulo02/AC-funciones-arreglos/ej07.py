@@ -1,13 +1,20 @@
 def es_numero_entero(cadena):
-    return cadena.isdigit() #función que permite leer si es dígito o no
+    for int in cadena:
 
-texto = input("Ingrese un texto o un número: ")
+        if(cadena is int):
+            return print("El valor ingresado es de tipo entero")
+        else:
+            return print("El valor no es de tipo entero")
 
-if es_numero_entero(texto):
-    print("Es un número entero")
 
-else:
-    print("No es un número entero")
+
+texto = int(input("Ingrese un texto o un número: "))
+
+es_numero_entero(texto)
+ 
+
+
+
 
 
   

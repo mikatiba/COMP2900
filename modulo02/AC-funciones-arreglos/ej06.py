@@ -1,11 +1,15 @@
 def invertir_cadena(cadena):
-    return ''.join(reversed(cadena))#reversed permite inverrtir los caracteres
+    array_length = len(cadena)
+    nueva_cadena = ''
+    for i in range(array_length):
+        nueva_cadena += (cadena[array_length-1-i])
+    return nueva_cadena
 
-texto = "Hola mi nombre es Mikael"
+mensaje = 'El oso peresozo'
+print(mensaje)
+print(invertir_cadena(mensaje))
 
-cadena_invertida = invertir_cadena(texto)
 
-print(cadena_invertida)
 
 
 
