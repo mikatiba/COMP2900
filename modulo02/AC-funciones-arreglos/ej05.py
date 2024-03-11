@@ -11,7 +11,7 @@ numeroIngresar = int(input("Ingrese un número: ")) #captura valor de tipo enter
 
 valorEncontrado = encontrar_indice(miLista, numeroIngresar)
 
-if(valorEncontrado > -1):
+if(valorEncontrado > -1): #si el valor es mayor que -1 ejecuta la línea de comando
     print(f'El índice de la lista es: {valorEncontrado}')
 
 else:
