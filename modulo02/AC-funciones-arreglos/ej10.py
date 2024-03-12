@@ -1,10 +1,10 @@
 def contar_apariciones_letra(cadena, letra):
     contador_letra = 0 #almacena la aparición de la letra escogida
 
-    for cadena in cadena:
-        if cadena.lower() == letra.lower(): 
-
+    for char in cadena:
+        if char.lower() in letra.lower(): 
             contador_letra +=1 #se incrementa
+            
     return contador_letra
 
 
