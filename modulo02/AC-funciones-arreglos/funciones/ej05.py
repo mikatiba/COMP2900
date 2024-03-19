@@ -15,7 +15,7 @@ if(valorEncontrado > -1): #si el valor es mayor que -1 ejecuta la línea de coma
     print(f'El índice de la lista es: {valorEncontrado}')
 
 else:
-    print("El índice no está en la lista")
+    print("El índice no está en la lista.")
 
 
     
