@@ -26,5 +26,5 @@ numbers = list(range(1, 1001))
 
 time_genexp = timeit.timeit(lambda: search_index(1000,numbers), number=10000)
 
-print(f"Enfoque 2: {time_index}")
+print(f"Enfoque 2: {time_genexp}")
 
