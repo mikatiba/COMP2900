@@ -6,3 +6,5 @@ for num in range(array_length):
     new_array.append(array[array_length -1 -num]) #se utiliza para acceder al último elemento de la lista 
 print(f'El orden de los elementos: {array}')
 print(f'El orden invertido de los elementos del arreglo es: {new_array}')
+
+print(array_length)
