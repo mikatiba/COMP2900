@@ -11,6 +11,7 @@ def selection_sort(arr):
     return arr
 
 for corridas in range(10000, 110000, 10000):#comienza 10,0000 datos para en 110,000 e incrementa en 10,000
+    
     print(f'Organizando {corridas} datos ... Favor esperar')
     lista = []
     f = open("mejor_caso.dat", "r")
